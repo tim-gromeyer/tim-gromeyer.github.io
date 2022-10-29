@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>software-made-easy: Converter</title>
+<title>Converter</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link rel="icon" type="image/svg+xml" href=""/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -14,7 +14,6 @@
 <script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
 <script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
 <script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
-<script type="text/javascript" src="toggle-alternative-theme.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeFragmentCopyButton.init()
     DoxygenAwesomeDarkModeToggle.init()
@@ -33,7 +32,6 @@
 <link href="custom.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
-<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <!-- https://tholman.com/github-corners/ -->
@@ -131,21 +129,21 @@ Features:</h1>
 </ul>
 <table class="markdownTable">
 <tr class="markdownTableHead">
-<th class="markdownTableHeadNone">From   </th><th class="markdownTableHeadNone">To    </th></tr>
+<th class="markdownTableHeadNone">Convert   </th><th class="markdownTableHeadNone">From   </th><th class="markdownTableHeadNone">To    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><b>Plain</b>   </td><td class="markdownTableBodyNone">C-string<br  />
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>Plain</b>   </td><td class="markdownTableBodyNone">C-string<br  />
 Sorted<br  />
 MD5<br  />
 SHA256<br  />
 SHA512    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><b>Markdown</b>   </td><td class="markdownTableBodyNone">HTML<br  />
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>Markdown</b>   </td><td class="markdownTableBodyNone">HTML<br  />
 Plain    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><b>HTML</b>   </td><td class="markdownTableBodyNone">Markdown<br  />
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>HTML</b>   </td><td class="markdownTableBodyNone">Markdown<br  />
 Plain    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><b>C-string</b>   </td><td class="markdownTableBodyNone">Plain   </td></tr>
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>C-string</b>   </td><td class="markdownTableBodyNone">Plain   </td></tr>
 </table>
 <p ><img src="Converter.png" alt="Example" class="inline"/></p>
 <h1><a class="anchor" id="autotoc_md19"></a>
@@ -159,10 +157,9 @@ Preview</h1>
 </p>
 <h1><a class="anchor" id="autotoc_md20"></a>
 Dependencies:</h1>
-<p ><a href="https://qt.io/">Qt</a>.</p>
+<p ><a href="https://qt.io/" target="_blank">Qt</a> 5.10 or above.</p>
 <h1><a class="anchor" id="autotoc_md21"></a>
 Build instructions</h1>
-<p >Run the <a href="scripts/build.sh">build script</a> or follow the instructions below.</p>
 <ul>
 <li>Clone Converter: <code>git clone <a href="https://github.com/software-made-easy/Converter">https://github.com/software-made-easy/Converter</a> --depth=1 &amp;&amp; cd Converter</code></li>
 <li>Clone all repositories required by Converter by running the command <code>git submodule update --init --recursive -j 3 --depth=1</code>.</li>

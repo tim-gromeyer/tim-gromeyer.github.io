@@ -15,16 +15,6 @@
     }
 }
 
-.alter-theme-button {
-    display: inline-block;
-    cursor: pointer;
-    background: var(--primary-color);
-    color: var(--page-background-color) !important;
-    border-radius: var(--border-radius-medium);
-    padding: var(--spacing-small) var(--spacing-medium);
-    text-decoration: none;
-}
-
 .next_section_button {
     display: block;
     padding: var(--spacing-large) 0 var(--spacing-small) 0;
