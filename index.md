@@ -29,14 +29,11 @@ MarkdownEdit, as the name suggests, is a simple and easy program for creating an
 
 ### Features:
 
-- Spell check
-- Load and save Markdown files
-- Preview Markdown files in real time (<1 ms)
-- Syntax highlighting editor
-- Auto-complete (close brackets, list, ...)
-- Export to HTML and PDF
-- Quick opening of recent files (Button in toolbar or in the file menu)
-- Reminds spelling language for each document
+- **Spell checker**
+- **Import from HTML**
+- **Live preview**
+- Editor with **syntax highlighting**
+- **Auto-completion** (close brackets, list, ...)
 
 <p><a href="https://software-made-easy.github.io/MarkdownEdit/markdownedit.html" target="_blank"><img src="MarkdownEdit.png" alt="Example">Click image for online demo</a></p>
 
@@ -61,14 +58,12 @@ Converter is a simple app for converting strings.
 - Open source
 - Native look and feel
 
-Convert:
-
-| From         	| To                                            	|
-|--------------	|-----------------------------------------------	|
-| **Plain**    		| C-string<br>Sorted<br>MD5<br>SHA256<br>SHA512 	|
-| **Markdown** 	|                 HTML<br>Plain                 	|
-| **HTML**     	|               Markdown<br>Plain               	|
-| **C-string** 		|                     Plain                     	|
+| Convert | From         	| To                                            	|
+|-------- |--------------	|-----------------------------------------------	|
+|         | **Plain**    		| C-string<br>Sorted<br>MD5<br>SHA256<br>SHA512 	|
+|         | **Markdown**  	|                 HTML<br>Plain                 	|
+|         | **HTML**     	|               Markdown<br>Plain               	|
+|         | **C-string** 		  |                     Plain                     	|
 
 <p><a href="https://software-made-easy.github.io/Converter/converter.html" target="_blank"><img src="Converter.png" alt="Example">Click image for online demo</a></p>
 

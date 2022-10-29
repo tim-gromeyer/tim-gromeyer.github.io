@@ -19,12 +19,12 @@ Converter, as the name suggests, is a simple and easy program to convert strings
 - Open source
 - Native look and feel
 
-| From         	| To                                            	|
-|--------------	|-----------------------------------------------	|
-| **Plain**    		| C-string<br>Sorted<br>MD5<br>SHA256<br>SHA512 	|
-| **Markdown** 	|                 HTML<br>Plain                 	|
-| **HTML**     	|               Markdown<br>Plain               	|
-| **C-string** 		|                     Plain                     	|
+| Convert | From         	| To                                            	|
+|-------- |--------------	|-----------------------------------------------	|
+|         | **Plain**    		| C-string<br>Sorted<br>MD5<br>SHA256<br>SHA512 	|
+|         | **Markdown**  	|                 HTML<br>Plain                 	|
+|         | **HTML**     	|               Markdown<br>Plain               	|
+|         | **C-string** 		  |                     Plain                     	|
 
 <p><img src="Converter.png" alt="Example"></p>
 
@@ -40,11 +40,9 @@ Important:
 
 ## Dependencies:
 
-[Qt](https://qt.io/).
+<a href="https://qt.io/" target="_blank">Qt</a> 5.10 or above.
 
 ## Build instructions
-
-Run the [build script](scripts/build.sh) or follow the instructions below.
 
 - Clone Converter: `git clone https://github.com/software-made-easy/Converter --depth=1 && cd Converter`
 - Clone all repositories required by Converter by running the command `git submodule update --init --recursive -j 3 --depth=1`.
