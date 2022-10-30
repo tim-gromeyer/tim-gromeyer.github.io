@@ -35,7 +35,7 @@ MarkdownEdit, as the name suggests, is a simple and easy program for creating an
 - Editor with **syntax highlighting**
 - **Auto-completion** (close brackets, list, ...)
 
-<p><a href="https://software-made-easy.github.io/MarkdownEdit/markdownedit.html" target="_blank"><img src="MarkdownEdit.png" alt="Example">Click image for online demo</a></p>
+<p><a href="https://software-made-easy.github.io/MarkdownEdit/markdownedit.html" target="_blank"><img src="MarkdownEdit.webp" alt="Example">Click image for online demo</a></p>
 
 ### Wanna learn more?
 
@@ -70,3 +70,6 @@ Converter is a simple app for converting strings.
 ### Wanna learn more?
 
 More info about Converter [here](Converter.md).
+
+<img src="images/MarkdownEdit.svg" width=0 height=0>
+<img src="images/Converter.svg" width=0 height=0>
