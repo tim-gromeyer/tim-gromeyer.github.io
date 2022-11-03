@@ -71,5 +71,6 @@ Converter is a simple app for converting strings.
 
 More info about Converter [here](Converter.md).
 
-<img src="images/MarkdownEdit.svg" width=0 height=0>
-<img src="images/Converter.svg" width=0 height=0>
+<p hidden>
+<img src="images/MarkdownEdit.svg" width=0 height=0><img src="images/Converter.svg" width=0 height=0>
+</p>
