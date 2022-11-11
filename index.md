@@ -2,7 +2,7 @@
 
 # About me
 
-- I am just a boy who lives in Germany
+- I am a boy who lives in Germany
 - I love programming
 - I program because it is fun
 - C++ and Ubuntu = ❤️
@@ -19,7 +19,8 @@
 
 Simple and fast HTML to Markdown conversion library with table support.
 
-You can read the documentation [here](https://software-made-easy.github.io/html2md/).
+To embed the documentation on this website would be a bit too overwhelming.  
+Therefore you can find the documentation [here](https://tim-gromeyer.github.io/html2md/).
 
 <br>
 

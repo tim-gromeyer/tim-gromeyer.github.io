@@ -1,4 +1,4 @@
-PROJECT_NAME           = "software-made-easy"
+PROJECT_NAME           = "tim-gromeyer"
 PROJECT_BRIEF          = "Hobby programmer from germany"
 PROJECT_LOGO           = "images/Empty.svg"
 
@@ -28,7 +28,7 @@ HTML_EXTRA_FILES       = doxygen-awesome-css/doxygen-awesome-darkmode-toggle.js 
                          doxygen-awesome-css/doxygen-awesome-fragment-copy-button.js \
                          doxygen-awesome-css/doxygen-awesome-paragraph-link.js \
                          doxygen-awesome-css/doxygen-awesome-interactive-toc.js \
-                         doxygen-awesome-css/change-logo.js
+                         change-logo.js
 
 # Transparent background for graphs
 HAVE_DOT               = YES
