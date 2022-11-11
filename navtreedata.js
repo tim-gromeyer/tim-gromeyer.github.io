@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "software-made-easy", "index.html", [
+  [ "tim-gromeyer", "index.html", [
     [ "About me", "index.html#autotoc_md0", null ],
     [ "Contact", "index.html#autotoc_md1", null ],
     [ "Projects", "index.html#autotoc_md2", [
