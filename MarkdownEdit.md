@@ -4,7 +4,7 @@
 
 <p><img src="made-with-c-plus-plus.svg" alt="Made with C++">
 <a href="https://qt.io" target="_blank"><img src="powered-by-qt.svg" alt="Powered by Qt"></a>
-<a href="https://github.com/software-made-easy/MarkdownEdit/releases/" target="_blank"><img src="https://img.shields.io/github/release/software-made-easy/MarkdownEdit.svg" alt="GitHub release"></a></p>
+<a href="https://github.com/tim-gromeyer/MarkdownEdit/releases/" target="_blank"><img src="https://img.shields.io/github/release/tim-gromeyer/MarkdownEdit.svg" alt="GitHub release"></a></p>
 
 MarkdownEdit is, as the name suggests, a simple and lightweight program for creating and editing Markdown files.
 
@@ -24,11 +24,11 @@ MarkdownEdit is, as the name suggests, a simple and lightweight program for crea
 - Open source
 - Reminds spelling language for each document
 
-<p><img src="MarkdownEdit.png" alt="Example"></p>
+<p><img src="MarkdownEdit.webp" alt="Example"></p>
 
 ## Preview
 
-A preview is available  <a href="https://software-made-easy.github.io/MarkdownEdit/markdownedit.html" target="_blank">here</a>.
+A preview is available  <a href="https://tim-gromeyer.github.io/MarkdownEdit/markdownedit.html" target="_blank">here</a>.
 
 Important:
 - Performance might be bad
@@ -47,7 +47,7 @@ Important:
 
 ## Build instructions
 
-- Clone MarkdownEdit: `git clone https://github.com/software-made-easy/MarkdownEdit --depth=1 && cd MarkdownEdit`.
+- Clone MarkdownEdit: `git clone https://github.com/tim-gromeyer/MarkdownEdit --depth=1 && cd MarkdownEdit`.
 - Clone all repositories required by MarkdownEdit by running the command `git submodule update --init --recursive -j 3 --depth=1`.
 - Create the build folder: `mkdir build && cd build`.
 - Now create a Makefile with CMake: `cmake ..`.
@@ -56,7 +56,7 @@ Important:
 Summarize:
 
 ```bash
-git clone https://github.com/software-made-easy/MarkdownEdit --depth=1 && cd MarkdownEdit
+git clone https://github.com/tim-gromeyer/MarkdownEdit --depth=1 && cd MarkdownEdit
 git submodule update --init --recursive -j 3 --depth=1
 mkdir build && cd build
 cmake ..
