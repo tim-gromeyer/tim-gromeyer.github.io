@@ -18,7 +18,7 @@ html2md is a simple and fast HTML to Markdown conversion library with table supp
 
 MarkdownEdit is a program for creating and editing Markdown files. Some of its features include a spell checker, syntax highlighting editor, live preview, auto-completion, and the ability to import from HTML. **For a live demo, please click the image below**.
 
-<p><a href="https://tim-gromeyer.github.io/MarkdownEdit/markdownedit.html" target="_blank"><img src="MarkdownEdit.webp" alt="Example">Click image for online demo</a></p>
+<p><a href="https://tim-gromeyer.github.io/MarkdownEdit/markdownedit.html" target="_blank"><img src="MarkdownEdit.png" alt="Example">Click image for online demo</a></p>
 
 For more information about MarkdownEdit, please visit [here](MarkdownEdit.md).
 
@@ -26,12 +26,12 @@ For more information about MarkdownEdit, please visit [here](MarkdownEdit.md).
 
 SConverter is an app for converting strings. Some of its features include a syntax highlighting editor, the ability to load from files, undo/redo functionality, real-time preview of converted strings, and a native look and feel. The app is also lightweight and quick to open recent files.
 
-| Convert | From         	| To                                            	|
-|-------: |:------------:	|:----------------------------------------------:|
-|         | **Plain**    		| C-string<br>Sorted<br>MD5<br>SHA256<br>SHA512 	|
-|         | **Markdown**  	|                 HTML<br>Plain                 	|
-|         | **HTML**     	|               Markdown<br>Plain               	|
-|         | **C-string** 		  |                     Plain                     	|
+| From         	| To                                            	|
+|:------------:	|:----------------------------------------------:|
+| **Plain**    		| C-string<br>Sorted<br>MD5<br>SHA256<br>SHA512 	|
+| **Markdown**  	|                 HTML<br>Plain                 	|
+| **HTML**     	|               Markdown<br>Plain               	|
+| **C-string** 		  |                     Plain                     	|
 
 <p><a href="https://tim-gromeyer.github.io/Converter/converter.html" target="_blank"><img src="Converter.png" alt="Example">Click image for online demo</a></p>
 

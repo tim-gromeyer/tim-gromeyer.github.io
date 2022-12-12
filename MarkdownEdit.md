@@ -2,9 +2,9 @@
 
 [TOC]
 
-<p><img src="https://forthebadge.com/images/badges/made-with-c-plus-plus.svg" alt="Made with C++">
-<a href="https://qt.io"><img src="https://forthebadge.com/images/badges/powered-by-qt.svg" alt="Powered by Qt"></a>
-<a href="https://github.com/tim-gromeyer/MarkdownEdit/releases/"><img src="https://img.shields.io/github/release/tim-gromeyer/MarkdownEdit.svg" alt="GitHub release"></a></p>
+![Made with C++](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)
+[![Powered by Qt](https://forthebadge.com/images/badges/powered-by-qt.svg)](https://qt.io)
+[![GitHub release](https://img.shields.io/github/release/tim-gromeyer/MarkdownEdit.svg)](https://github.com/tim-gromeyer/MarkdownEdit/releases/)
 
 Experience the speed and simplicity of MarkdownEdit.
 
@@ -13,10 +13,11 @@ Experience the speed and simplicity of MarkdownEdit.
 MarkdownEdit offers a range of powerful features to make editing and creating Markdown
 files quick and easy:
 
-- **Spell checker with language detection**
+- **Spell checker**
 - Save and load Markdown files quickly and easily
 - Powerful undo/redo capabilities
-- **Real-time Markdown preview with syntax highlighting**
+- **Real-time Markdown preview**
+- **Syntax highlighting editor**
 - Auto-completion for brackets, lists, and more
 - Find/replace functionality for efficient editing
 - Export to HTML and PDF

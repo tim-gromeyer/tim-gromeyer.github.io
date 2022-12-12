@@ -13,19 +13,19 @@ Simple, fast, and powerful: convert your strings with SConverter.
 - Save and load files
 - Undo/Redo
 - Real-time preview of converted strings
-- Syntax highlighting editor
+- Syntax highlighting editor (for HTML only)
 - Lightweight and quick to open recent files
 - Open source
 - Native look and feel
 
 | From         	| To                                            	|
-|--------------	|-----------------------------------------------	|
+|:------------:	|:---------------------------------------------:	|
 | **Plain**    		| C-string<br>Sorted<br>MD5<br>SHA256<br>SHA512 	|
 | **Markdown** 	|                 HTML<br>Plain                 	|
 | **HTML**     	|               Markdown<br>Plain               	|
 | **C-string** 		|                     Plain                     	|
 
-<p><img src="Converter.png" alt="Example"></p>
+![Example](Converter.png)
 
 ## Preview
 
@@ -33,7 +33,7 @@ A live preview is available [here](https://tim-gromeyer.github.io/Converter/conv
 
 ## Dependencies:
 
-<a href="https://qt.io/" target="_blank">Qt</a> 5.10 or above.
+[Qt](https://qt.io/) 5.10 or above.
 
 ## Build instructions
 
