@@ -1,42 +1,35 @@
-# Converter
+# SConverter
 
 [TOC]
 
-<p><img src="made-with-c-plus-plus.svg" alt="Made with C++">
-<a href="https://qt.io"><img src="powered-by-qt.svg" alt="Powered by Qt"></a>
-<a href="https://github.com/tim-gromeyer/Converter/releases/"><img src="https://img.shields.io/github/release/tim-gromeyer/Converter.svg" alt="GitHub release"></a></p>
+![Made with C++](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)
+[![Powered by Qt](https://forthebadge.com/images/badges/powered-by-qt.svg)](https://qt.io)
+[![GitHub release](https://img.shields.io/github/release/tim-gromeyer/Converter.svg)](https://github.com/tim-gromeyer/Converter/releases/)
 
-Converter, as the name suggests, is a simple and easy program to convert strings.
+Simple, fast, and powerful: convert your strings with SConverter.
 
 ## Features:
 
 - Save and load files
-- Undo-Redo
-- Preview converted strings in real time (<1 ms)
+- Undo/Redo
+- Real-time preview of converted strings
 - Syntax highlighting editor
-- Poor in resources
-- Quick opening of recent files (Button in toolbar or in the file menu)
+- Lightweight and quick to open recent files
 - Open source
 - Native look and feel
 
-| Convert | From         	| To                                            	|
-|-------- |--------------	|-----------------------------------------------	|
-|         | **Plain**    		| C-string<br>Sorted<br>MD5<br>SHA256<br>SHA512 	|
-|         | **Markdown**  	|                 HTML<br>Plain                 	|
-|         | **HTML**     	|               Markdown<br>Plain               	|
-|         | **C-string** 		  |                     Plain                     	|
+| From         	| To                                            	|
+|--------------	|-----------------------------------------------	|
+| **Plain**    		| C-string<br>Sorted<br>MD5<br>SHA256<br>SHA512 	|
+| **Markdown** 	|                 HTML<br>Plain                 	|
+| **HTML**     	|               Markdown<br>Plain               	|
+| **C-string** 		|                     Plain                     	|
 
 <p><img src="Converter.png" alt="Example"></p>
 
 ## Preview
 
-A preview is available [here](https://tim-gromeyer.github.io/Converter/converter.html).
-
-Important:
-
-- Performance might be bad
-
-<br>
+A live preview is available [here](https://tim-gromeyer.github.io/Converter/converter.html).
 
 ## Dependencies:
 
@@ -44,13 +37,15 @@ Important:
 
 ## Build instructions
 
-- Clone Converter: `git clone https://github.com/tim-gromeyer/Converter --depth=1 && cd Converter`
-- Clone all repositories required by Converter by running the command `git submodule update --init --recursive -j 3 --depth=1`.
-- Create the build folder: `mkdir build && cd build`.
-- Now create a Makefile with CMake: `cmake ..`.
-- Build it: `cmake --build . -j4`
+To build SConverter, follow these steps:
 
-In summary:
+1. Clone the SConverter repository: `git clone https://github.com/tim-gromeyer/Converter --depth=1 && cd Converter`
+2. Clone the required repositories by running the command `git submodule update --init --recursive -j 3 --depth=1`.
+3. Create a build directory: `mkdir build && cd build`.
+4. Generate a Makefile with CMake: `cmake ..`.
+5. Build the app: `cmake --build . -j4`
+
+Here is the process in one command:
 ```bash
 git clone https://github.com/tim-gromeyer/Converter --depth=1 && cd Converter
 git submodule update --init --recursive -j 3 --depth=1

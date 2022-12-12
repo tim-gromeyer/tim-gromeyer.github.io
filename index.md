@@ -1,66 +1,33 @@
 [TOC]
 
-# About me
+# About Me
 
-- I am a boy who lives in Germany
-- I love programming
-- I program because it is fun
-- C++ and Ubuntu = ❤️
-- I don't like apps without dark mode!
-- I'm very uncreative when it comes to names
+Hello! I am a boy from Germany who loves programming and using C++ and Ubuntu. I also appreciate a good dark mode in apps. I may not be very creative when it comes to naming things, but I am passionate about my projects.
 
 # Contact
 
-- E-Mail: sakul8826@gmail.com
+If you would like to get in touch with me, you can email me at sakul8826@gmail.com.
 
 # Projects
 
 ## html2md
 
-Simple and fast HTML to Markdown conversion library with table support.
-
-To embed the documentation on this website would be a bit too overwhelming.  
-Therefore you can find the documentation [here](https://tim-gromeyer.github.io/html2md/).
-
-<br>
+html2md is a simple and fast HTML to Markdown conversion library with table support. For more information and to see the documentation, please visit [here](https://tim-gromeyer.github.io/html2md/).
 
 ## MarkdownEdit
 
-MarkdownEdit, as the name suggests, is a simple and easy program for creating and editing Markdown files.
-
-### Features:
-
-- **Spell checker**
-- **Import from HTML**
-- **Live preview**
-- Editor with **syntax highlighting**
-- **Auto-completion** (close brackets, list, ...)
+MarkdownEdit is a program for creating and editing Markdown files. Some of its features include a spell checker, syntax highlighting editor, live preview, auto-completion, and the ability to import from HTML. **For a live demo, please click the image below**.
 
 <p><a href="https://tim-gromeyer.github.io/MarkdownEdit/markdownedit.html" target="_blank"><img src="MarkdownEdit.webp" alt="Example">Click image for online demo</a></p>
 
-### Wanna learn more?
+For more information about MarkdownEdit, please visit [here](MarkdownEdit.md).
 
-More info about MarkdownEdit [here](MarkdownEdit.md).
+## SConverter
 
-<br>
-
-## Converter
-
-Converter is a simple app for converting strings.
-
-### Features:
-
-- Load from files
-- Undo-Redo
-- Preview converted strings in real time (<1 ms)
-- Syntax highlighting editor
-- Poor in resources
-- Quick opening of recent files (Button in toolbar or in the file menu)
-- Open source
-- Native look and feel
+SConverter is an app for converting strings. Some of its features include a syntax highlighting editor, the ability to load from files, undo/redo functionality, real-time preview of converted strings, and a native look and feel. The app is also lightweight and quick to open recent files.
 
 | Convert | From         	| To                                            	|
-|-------- |--------------	|-----------------------------------------------	|
+|-------: |:------------:	|:----------------------------------------------:|
 |         | **Plain**    		| C-string<br>Sorted<br>MD5<br>SHA256<br>SHA512 	|
 |         | **Markdown**  	|                 HTML<br>Plain                 	|
 |         | **HTML**     	|               Markdown<br>Plain               	|
@@ -68,9 +35,7 @@ Converter is a simple app for converting strings.
 
 <p><a href="https://tim-gromeyer.github.io/Converter/converter.html" target="_blank"><img src="Converter.png" alt="Example">Click image for online demo</a></p>
 
-### Wanna learn more?
-
-More info about Converter [here](Converter.md).
+For more information about SConverter, please visit [here](Converter.md).
 
 <p hidden>
 <img src="images/MarkdownEdit.svg" width=0 height=0><img src="images/Converter.svg" width=0 height=0>
