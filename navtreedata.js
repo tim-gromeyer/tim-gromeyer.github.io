@@ -25,33 +25,26 @@
 var NAVTREE =
 [
   [ "tim-gromeyer", "index.html", [
-    [ "About me", "index.html#autotoc_md0", null ],
+    [ "About Me", "index.html#autotoc_md0", null ],
     [ "Contact", "index.html#autotoc_md1", null ],
     [ "Projects", "index.html#autotoc_md2", [
       [ "html2md", "index.html#autotoc_md3", null ],
-      [ "MarkdownEdit", "index.html#autotoc_md4", [
-        [ "Features:", "index.html#autotoc_md5", null ],
-        [ "Wanna learn more?", "index.html#autotoc_md6", null ]
-      ] ],
-      [ "Converter", "index.html#autotoc_md7", [
-        [ "Features:", "index.html#autotoc_md8", null ],
-        [ "Wanna learn more?", "index.html#autotoc_md9", null ]
-      ] ]
+      [ "MarkdownEdit", "index.html#autotoc_md4", null ],
+      [ "SConverter", "index.html#autotoc_md5", null ]
     ] ],
     [ "MarkdownEdit", "md_MarkdownEdit.html", [
-      [ "Features:", "md_MarkdownEdit.html#autotoc_md11", null ],
-      [ "Preview", "md_MarkdownEdit.html#autotoc_md12", null ],
-      [ "Dependencies:", "md_MarkdownEdit.html#autotoc_md13", null ],
-      [ "Note(s):", "md_MarkdownEdit.html#autotoc_md14", null ],
-      [ "Build instructions", "md_MarkdownEdit.html#autotoc_md15", null ],
-      [ "Credits", "md_MarkdownEdit.html#autotoc_md16", null ]
+      [ "Features", "md_MarkdownEdit.html#autotoc_md7", null ],
+      [ "Preview", "md_MarkdownEdit.html#autotoc_md8", null ],
+      [ "Dependencies", "md_MarkdownEdit.html#autotoc_md9", null ],
+      [ "Build instructions", "md_MarkdownEdit.html#autotoc_md10", null ],
+      [ "Credits", "md_MarkdownEdit.html#autotoc_md11", null ]
     ] ],
-    [ "Converter", "md_Converter.html", [
-      [ "Features:", "md_Converter.html#autotoc_md18", null ],
-      [ "Preview", "md_Converter.html#autotoc_md19", null ],
-      [ "Dependencies:", "md_Converter.html#autotoc_md20", null ],
-      [ "Build instructions", "md_Converter.html#autotoc_md21", null ],
-      [ "Credits", "md_Converter.html#autotoc_md22", null ]
+    [ "SConverter", "md_Converter.html", [
+      [ "Features:", "md_Converter.html#autotoc_md13", null ],
+      [ "Preview", "md_Converter.html#autotoc_md14", null ],
+      [ "Dependencies:", "md_Converter.html#autotoc_md15", null ],
+      [ "Build instructions", "md_Converter.html#autotoc_md16", null ],
+      [ "Credits", "md_Converter.html#autotoc_md17", null ]
     ] ]
   ] ]
 ];

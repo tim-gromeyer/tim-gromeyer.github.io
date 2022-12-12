@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Converter</title>
+<title>SConverter</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link rel="icon" type="image/svg+xml" href=""/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -107,77 +107,71 @@ $(document).ready(function(){initNavTree('md_Converter.html',''); initResizable(
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Converter </div></div>
+  <div class="headertitle"><div class="title">SConverter </div></div>
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md18">Features:</a></li>
-<li class="level1"><a href="#autotoc_md19">Preview</a></li>
-<li class="level1"><a href="#autotoc_md20">Dependencies:</a></li>
-<li class="level1"><a href="#autotoc_md21">Build instructions</a></li>
-<li class="level1"><a href="#autotoc_md22">Credits</a></li>
+<ul><li class="level1"><a href="#autotoc_md13">Features:</a></li>
+<li class="level1"><a href="#autotoc_md14">Preview</a></li>
+<li class="level1"><a href="#autotoc_md15">Dependencies:</a></li>
+<li class="level1"><a href="#autotoc_md16">Build instructions</a></li>
+<li class="level1"><a href="#autotoc_md17">Credits</a></li>
 </ul>
 </div>
-<div class="textblock"><p ><img src="made-with-c-plus-plus.svg" alt="Made with C++" style="pointer-events: none;" class="inline"/> <a href="https://qt.io"><img src="powered-by-qt.svg" alt="Powered by Qt" style="pointer-events: none;" class="inline"/></a> <a href="https://github.com/tim-gromeyer/Converter/releases/"><img src="https://img.shields.io/github/release/tim-gromeyer/Converter.svg" alt="GitHub release" style="pointer-events: none;" class="inline"/></a></p>
-<p >Converter, as the name suggests, is a simple and easy program to convert strings.</p>
-<h1><a class="anchor" id="autotoc_md18"></a>
+<div class="textblock"><p ><img src="https://forthebadge.com/images/badges/made-with-c-plus-plus.svg" alt="Made with C++" style="pointer-events: none;" class="inline"/> <a href="https://qt.io"><img src="https://forthebadge.com/images/badges/powered-by-qt.svg" alt="Powered by Qt" style="pointer-events: none;" class="inline"/></a> <a href="https://github.com/tim-gromeyer/Converter/releases/"><img src="https://img.shields.io/github/release/tim-gromeyer/Converter.svg" alt="GitHub release" style="pointer-events: none;" class="inline"/></a></p>
+<p >Simple, fast, and powerful: convert your strings with SConverter.</p>
+<h1><a class="anchor" id="autotoc_md13"></a>
 Features:</h1>
 <ul>
 <li>Save and load files</li>
-<li>Undo-Redo</li>
-<li>Preview converted strings in real time (&lt;1 ms)</li>
+<li>Undo/Redo</li>
+<li>Real-time preview of converted strings</li>
 <li>Syntax highlighting editor</li>
-<li>Poor in resources</li>
-<li>Quick opening of recent files (Button in toolbar or in the file menu)</li>
+<li>Lightweight and quick to open recent files</li>
 <li>Open source</li>
 <li>Native look and feel</li>
 </ul>
 <table class="markdownTable">
 <tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Convert   </th><th class="markdownTableHeadNone">From   </th><th class="markdownTableHeadNone">To    </th></tr>
+<th class="markdownTableHeadNone">From   </th><th class="markdownTableHeadNone">To    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>Plain</b>   </td><td class="markdownTableBodyNone">C-string<br  />
+<td class="markdownTableBodyNone"><b>Plain</b>   </td><td class="markdownTableBodyNone">C-string<br  />
 Sorted<br  />
 MD5<br  />
 SHA256<br  />
 SHA512    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>Markdown</b>   </td><td class="markdownTableBodyNone">HTML<br  />
+<td class="markdownTableBodyNone"><b>Markdown</b>   </td><td class="markdownTableBodyNone">HTML<br  />
 Plain    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>HTML</b>   </td><td class="markdownTableBodyNone">Markdown<br  />
+<td class="markdownTableBodyNone"><b>HTML</b>   </td><td class="markdownTableBodyNone">Markdown<br  />
 Plain    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><b>C-string</b>   </td><td class="markdownTableBodyNone">Plain   </td></tr>
+<td class="markdownTableBodyNone"><b>C-string</b>   </td><td class="markdownTableBodyNone">Plain   </td></tr>
 </table>
 <p ><img src="Converter.png" alt="Example" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md19"></a>
+<h1><a class="anchor" id="autotoc_md14"></a>
 Preview</h1>
-<p >A preview is available <a href="https://tim-gromeyer.github.io/Converter/converter.html">here</a>.</p>
-<p >Important:</p>
-<ul>
-<li>Performance might be bad</li>
-</ul>
-<p ><br  />
-</p>
-<h1><a class="anchor" id="autotoc_md20"></a>
+<p >A live preview is available <a href="https://tim-gromeyer.github.io/Converter/converter.html">here</a>.</p>
+<h1><a class="anchor" id="autotoc_md15"></a>
 Dependencies:</h1>
 <p ><a href="https://qt.io/" target="_blank">Qt</a> 5.10 or above.</p>
-<h1><a class="anchor" id="autotoc_md21"></a>
+<h1><a class="anchor" id="autotoc_md16"></a>
 Build instructions</h1>
-<ul>
-<li>Clone Converter: <code>git clone <a href="https://github.com/tim-gromeyer/Converter">https://github.com/tim-gromeyer/Converter</a> --depth=1 &amp;&amp; cd Converter</code></li>
-<li>Clone all repositories required by Converter by running the command <code>git submodule update --init --recursive -j 3 --depth=1</code>.</li>
-<li>Create the build folder: <code>mkdir build &amp;&amp; cd build</code>.</li>
-<li>Now create a Makefile with CMake: <code>cmake ..</code>.</li>
-<li>Build it: <code>cmake --build . -j4</code></li>
-</ul>
-<p >In summary: </p><div class="fragment"><div class="line">git clone https://github.com/tim-gromeyer/Converter --depth=1 &amp;&amp; cd Converter</div>
+<p >To build SConverter, follow these steps:</p>
+<ol type="1">
+<li>Clone the SConverter repository: <code>git clone <a href="https://github.com/tim-gromeyer/Converter">https://github.com/tim-gromeyer/Converter</a> --depth=1 &amp;&amp; cd Converter</code></li>
+<li>Clone the required repositories by running the command <code>git submodule update --init --recursive -j 3 --depth=1</code>.</li>
+<li>Create a build directory: <code>mkdir build &amp;&amp; cd build</code>.</li>
+<li>Generate a Makefile with CMake: <code>cmake ..</code>.</li>
+<li>Build the app: <code>cmake --build . -j4</code></li>
+</ol>
+<p >Here is the process in one command: </p><div class="fragment"><div class="line">git clone https://github.com/tim-gromeyer/Converter --depth=1 &amp;&amp; cd Converter</div>
 <div class="line">git submodule update --init --recursive -j 3 --depth=1</div>
 <div class="line">mkdir build &amp;&amp; cd build</div>
 <div class="line">cmake ..</div>
 <div class="line">cmake --build . -j4</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md22"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md17"></a>
 Credits</h1>
 <ul>
 <li>The conversion from Markdown to HTML is done with the help of the <a href="https://github.com/mity/md4c">md4c</a> - library by <em>Martin Mitáš</em>. </li>
