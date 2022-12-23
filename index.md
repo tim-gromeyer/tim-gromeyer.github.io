@@ -12,7 +12,8 @@ If you would like to get in touch with me, you can email me at sakul8826@gmail.c
 
 ## html2md
 
-html2md is a simple and fast HTML to Markdown conversion library with table support. For more information and to see the documentation, please visit [here](https://tim-gromeyer.github.io/html2md/).
+html2md is a fast and reliable C++ library for converting HTML content into markdown. It offers support for a wide range of HTML tags, including those for formatting text, creating lists, and inserting images and links. In addition, html2md offers support for table formatting, making it a valuable tool for users who need to convert HTML tables into markdown.  
+For more information and to see the documentation, please visit [here](https://tim-gromeyer.github.io/html2md/).
 
 ## MarkdownEdit
 
