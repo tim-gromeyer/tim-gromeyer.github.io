@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tim_2dgromeyer_0',['tim-gromeyer',['../index.html',1,'']]]
+  ['tim_20gromeyer_0',['Tim Gromeyer',['../index.html',1,'']]]
 ];

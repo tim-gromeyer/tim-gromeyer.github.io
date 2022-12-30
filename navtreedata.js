@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "tim-gromeyer", "index.html", [
+  [ "Tim Gromeyer", "index.html", [
     [ "About Me", "index.html#autotoc_md0", null ],
     [ "Contact", "index.html#autotoc_md1", null ],
     [ "Projects", "index.html#autotoc_md2", [
