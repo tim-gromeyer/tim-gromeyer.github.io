@@ -40,3 +40,6 @@ INTERACTIVE_SVG        = YES
 TOC_EXPAND             = YES
 TOC_INCLUDE_HEADINGS   = 5
 
+# Fix dark mode not deactivatable
+HTML_COLORSTYLE = TOGGLE
+
