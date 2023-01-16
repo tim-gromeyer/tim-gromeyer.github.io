@@ -53,7 +53,8 @@ window.onload = function() {
   var links = document.querySelectorAll("a");
 
   for (var i = 0; i < links.length; i++) {
-    links[i].target = "_blank";
+    if (!links[i].parentElement.className.startsWith('level'))
+      links[i].target = "_blank";
   }
 };
 
