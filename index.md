@@ -21,7 +21,7 @@ MarkdownEdit is a program for creating and editing Markdown files. Some of its f
 
 <p><a href="https://tim-gromeyer.github.io/MarkdownEdit/markdownedit.html" target="_blank"><img src="MarkdownEdit.png" alt="Example">Click image for online demo</a></p>
 
-For more information about MarkdownEdit, please visit [here](MarkdownEdit.md).
+For more information about MarkdownEdit, please visit [here](https://tim-gromeyer.github.io/MarkdownEdit/).
 
 ## SConverter
 
