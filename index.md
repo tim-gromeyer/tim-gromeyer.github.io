@@ -2,12 +2,9 @@
 
 # About Me
 
-Hello! I am a boy from Germany who loves programming and using C++ and Ubuntu. I also appreciate a good dark mode in apps. I may not be very creative when it comes to naming things, but I am passionate about my projects.
+It's Tim
 
-# Contact
-
-If you would like to get in touch with me, you can email me at sakul8826@gmail.com.
-
+<!--
 # Projects
 
 ## html2md
@@ -41,3 +38,4 @@ For more information about SConverter, please visit [here](Converter.md).
 <p hidden>
 <img src="images/MarkdownEdit.svg" width=0 height=0><img src="images/Converter.svg" width=0 height=0>
 </p>
+-->
