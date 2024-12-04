@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['html2md_0',['html2md',['../index.html#autotoc_md3',1,'']]]
+  ['instructions_0',['instructions',['../md_MarkdownEdit.html#autotoc_md9',1,'Build instructions'],['../md_Converter.html#autotoc_md15',1,'Build instructions']]]
 ];
