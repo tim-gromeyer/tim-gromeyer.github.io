@@ -2,7 +2,7 @@ PROJECT_NAME           = "Tim Gromeyer"
 PROJECT_BRIEF          = "Hobby programmer from germany"
 PROJECT_LOGO           = "images/Empty.svg"
 
-INPUT                  = index.md MarkdownEdit.md Converter.md
+INPUT                  = index.md
 USE_MDFILE_AS_MAINPAGE = index.md
 
 MARKDOWN_SUPPORT       = YES
