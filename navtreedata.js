@@ -25,21 +25,7 @@
 var NAVTREE =
 [
   [ "Tim Gromeyer", "index.html", [
-    [ "About Me", "index.html#autotoc_md0", null ],
-    [ "MarkdownEdit", "md_MarkdownEdit.html", [
-      [ "Features", "md_MarkdownEdit.html#autotoc_md6", null ],
-      [ "Preview", "md_MarkdownEdit.html#autotoc_md7", null ],
-      [ "Dependencies", "md_MarkdownEdit.html#autotoc_md8", null ],
-      [ "Build instructions", "md_MarkdownEdit.html#autotoc_md9", null ],
-      [ "Credits", "md_MarkdownEdit.html#autotoc_md10", null ]
-    ] ],
-    [ "SConverter", "md_Converter.html", [
-      [ "Features:", "md_Converter.html#autotoc_md12", null ],
-      [ "Preview", "md_Converter.html#autotoc_md13", null ],
-      [ "Dependencies:", "md_Converter.html#autotoc_md14", null ],
-      [ "Build instructions", "md_Converter.html#autotoc_md15", null ],
-      [ "Credits", "md_Converter.html#autotoc_md16", null ]
-    ] ]
+    [ "About Me", "index.html#autotoc_md0", null ]
   ] ]
 ];
 
@@ -48,5 +34,5 @@ var NAVTREEINDEX =
 "index.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'click to disable panel synchronization';
+var SYNCOFFMSG = 'click to enable panel synchronization';
